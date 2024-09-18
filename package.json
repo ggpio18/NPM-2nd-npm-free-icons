@@ -1,0 +1,13 @@
+{
+  "name": "free-icons-npm",
+  "version": "1.0.0",
+  "description": "A free icons package with 3d basic and social",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
