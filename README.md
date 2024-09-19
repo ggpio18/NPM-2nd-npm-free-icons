@@ -1,8 +1,8 @@
-#Free Icons NPM Package
+# Free Icons NPM Package
 
 This package provides a collection of free SVG icons that can be easily integrated into your projects. Whether you need icons for basic UI elements or social media, this package has you covered!
 
-#Installation
+# Installation
 To install the package, run the following command in your project directory:
 
 bash:
@@ -10,7 +10,7 @@ bash:
 npm install free-icons-npm
 ```
 
-#Usage
+# Usage
 You can retrieve icons by category and name using the getIcon method provided by the package. The icon will be returned as an SVG string, which can then be embedded in your HTML, React components, or any frontend framework.
 
 Example in JavaScript
@@ -47,7 +47,7 @@ const IconComponent = () => {
 export default IconComponent;
 ```
 
-Available Categories and Icons
+# Available Categories and Icons
 Here are the categories and the available icons within each:
 
 Basic
@@ -59,7 +59,7 @@ facebook
 twitter
 instagram
 
-#How to Retrieve Icons
+# How to Retrieve Icons
 To retrieve an icon, use the getIcon function. It takes two arguments:
 
 - Category - The folder in which the icon resides (e.g., "basic", "social").
@@ -71,7 +71,7 @@ const icon = getIcon('social', 'facebook');
 
 This will return the SVG string for the Facebook icon.
 
-#Handling Missing Icons
+# Handling Missing Icons
 If an icon is not found, the package will return null and log an error message to the console:
 javascript
 ```
@@ -79,10 +79,10 @@ const missingIcon = getIcon('basic', 'nonexistent-icon');
 // Error logged: "Icon 'nonexistent-icon' not found in category 'basic'"
 ```
 
-#Contributions
+# Contributions
 Feel free to contribute to this project! You can submit new icons or improve the existing functionality by creating a pull request.
 
-#License
+# License
 This package is licensed under the MIT License, allowing for both personal and commercial use. Please ensure that the icons used in this package adhere to any applicable license terms.
 
 
